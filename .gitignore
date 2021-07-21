@@ -1,0 +1,4 @@
+/sqlDump
+/node_modules
+/dist
+.env

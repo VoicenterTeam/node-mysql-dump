@@ -1,0 +1,30 @@
+{
+  "name": "mysql-dump",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dump": "node scripts/dump.js",
+    "cron": "node scripts/cron.js",
+    "restore": "node scripts/restore.js",
+    "start": "node scripts/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoicenterTeam/node-mysql-dump.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VoicenterTeam/node-mysql-dump/issues"
+  },
+  "homepage": "https://github.com/VoicenterTeam/node-mysql-dump#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "node-cron": "^3.0.0",
+    "simple-git": "^2.41.1",
+    "sql-smart-dump-lib": "^0.0.8"
+  }
+}
