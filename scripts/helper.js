@@ -151,6 +151,8 @@ async function dumpDB (dumpOptions, dbConnestionOptions) {
   }
 }
 
+module.exports.getRedableSize = getRedableSize;
+
 module.exports.executeDump = async function (dumpOptions, dbConnestionOptions) {
   if (dumpOptions.full) {
     await fullDump(dumpOptions, dbConnestionOptions);

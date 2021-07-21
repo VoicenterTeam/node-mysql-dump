@@ -11,8 +11,6 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=123
 CONNECTIONLIMIT=4
-
-SQL_DIR_NAME=<sql-smart-dump-resource>
 ```
 
 ### Befor work you have to add .env file with that wariables
